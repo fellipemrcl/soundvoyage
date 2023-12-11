@@ -30,7 +30,7 @@ Um web player de música. Faça o upload do seu som, compartilhe com a comunidad
 ## Próximas implementações
 
 - Barra de progresso da música no player
-- Arrastar e soltar para redimensional barra lateral esquerda
+- Arrastar e soltar para redimensionar barra lateral esquerda
 - Login com o Google e Facebook
 ## Aprendizados
 
