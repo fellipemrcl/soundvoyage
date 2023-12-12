@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# SoundVoyage
 
-First, run the development server:
+Um web player de música. Faça o upload do seu som, compartilhe com a comunidade, e escute as músicas favoritas dos amantes de músicas, como você.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Licença
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+[MIT](https://choosealicense.com/licenses/mit/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Screenshots
 
-To learn more about Next.js, take a look at the following resources:
+![App Screenshot](public/screenshots/SoundVoyage5.png)
+![App Screenshot](public/screenshots/SoundVoyage1.png)
+![App Screenshot](public/screenshots/SoundVoyage2.png)
+![App Screenshot](public/screenshots/SoundVoyage3.png)
+![App Screenshot](public/screenshots/SoundVoyage4.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Funcionalidades
 
-## Deploy on Vercel
+- Cadastro de usuários
+- Cadastro com o GitHub ou e-mail e senha (via link mágico)
+- Gerenciamento de assinaturas (via Stripe)
+- Upload de músicas com metadados
+- Player de música funcional
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Próximas implementações
+
+- Barra de progresso da música no player
+- Arrastar e soltar para redimensionar barra lateral esquerda
+- Login com o Google e Facebook
+## Aprendizados
+
+Nesse projeto, pude aprender mais sobre design patterns e padrões de código, já que foi necessária uma melhor organização de pastas e componentes, visando a escalabilidade do código. 
+
+Aprendi também mais funcionalidades avançadas do Next.js, como cache e rotas dinâmicas. Coloquei a mão na massa também, pela primeira vez, no Stripe, para fazer o gerenciamento de assinaturas dos usuários.
+
+O maior desafio com certeza foi a integração da aplicação com o Stripe, já que o conceito de webhooks ainda era novo para mim. Depois de vários dias, consegui superar essa dificuldade através da magnífica documentação do Stripe, além de vídeos no YouTube e algumas horas de leitura no StackOverflow.
+
+## Stack utilizada
+
+**Front-end:** React, Next.js, Context API, Zustand, Tailwind CSS
+
+**Back-end:** Node, Prisma, Supabase, Stripe
+
