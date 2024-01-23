@@ -42,7 +42,7 @@ O maior desafio com certeza foi a integração da aplicação com o Stripe, já 
 
 ## Stack utilizada
 
-**Front-end:** React, Next.js, Context API, Zustand, Tailwind CSS
+**Front-end:** React, Next.js, Context API, Zustand, Tailwind CSS, shadcn UI
 
 **Back-end:** Node, Prisma, Supabase, Stripe
 
