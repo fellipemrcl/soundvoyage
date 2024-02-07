@@ -1,4 +1,3 @@
-
 # SoundVoyage
 
 Um web player de música. Faça o upload do seu som, compartilhe com a comunidade, e escute as músicas favoritas dos amantes de músicas, como você.
@@ -18,6 +17,31 @@ Um web player de música. Faça o upload do seu som, compartilhe com a comunidad
 ![App Screenshot](public/screenshots/SoundVoyage4.png)
 
 
+## Rodando o projeto localmente
+
+- Faça o clone do projeto: 
+
+```
+git clone git@github.com:fellipemrcl/soundvoyage.git
+```
+
+- Navegue até a pasta recém criada:
+
+```
+cd soundvoyage/
+```
+
+- Instale as dependências do projeto:
+
+```
+npm install
+```
+
+- Rode o projeto:
+
+```
+npm run dev
+```
 ## Funcionalidades
 
 - Cadastro de usuários
